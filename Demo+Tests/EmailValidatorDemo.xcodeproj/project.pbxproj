@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6D81FC1D35728700CAB88A /* DomainData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6D81FB1D35728700CAB88A /* DomainData.plist */; };
 		5FD6D344180A401400C37742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD6D343180A401400C37742 /* Foundation.framework */; };
 		5FD6D346180A401400C37742 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD6D345180A401400C37742 /* CoreGraphics.framework */; };
 		5FD6D348180A401400C37742 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD6D347180A401400C37742 /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6D81FB1D35728700CAB88A /* DomainData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DomainData.plist; sourceTree = "<group>"; };
 		5FD6D340180A401400C37742 /* EmailValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD6D343180A401400C37742 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FD6D345180A401400C37742 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -186,6 +188,7 @@
 		5FD6D37A180A406000C37742 /* SHEmailValidator */ = {
 			isa = PBXGroup;
 			children = (
+				1B6D81FB1D35728700CAB88A /* DomainData.plist */,
 				5FD6D386180CA35400C37742 /* SHAutocorrectSuggestionView.h */,
 				5FD6D387180CA35400C37742 /* SHAutocorrectSuggestionView.m */,
 				5FD6D37B180A409D00C37742 /* SHEmailValidator.h */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD6D35C180A401500C37742 /* Images.xcassets in Resources */,
+				1B6D81FC1D35728700CAB88A /* DomainData.plist in Resources */,
 				5FD6D34E180A401400C37742 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

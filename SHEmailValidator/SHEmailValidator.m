@@ -117,7 +117,7 @@ NSString *const SHValidatorErrorDomain = @"com.spothero.SHEmailValidator";
         }
 
         return NO;
-    } else if (![tldPredicate evaluateWithObject:tld]) {
+    } else if (![tldPredicate evaluateWithObject:tld] || ![self.ianaRegisteredTLDs containsObject:tld]) {
         NSDictionary *errorDictionary = @{NSLocalizedDescriptionKey: @"The TLD section of the entered email address is invalid."};
 
         if (error != NULL) {
